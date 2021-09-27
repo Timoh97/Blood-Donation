@@ -109,3 +109,18 @@ h4 {
   nav {
       width: 200em;
   }
+
+
+  footer {
+      background-color: rgb(235, 235, 204);
+      border-radius: 1em;
+  }
+
+  header {
+      background-color: red;
+  }
+
+  .container {
+      border: 3px solid red;
+      border-radius: 2em;
+  }
