@@ -1,7 +1,7 @@
-*{
-    font-family:courier,arial,helvetica;
+* {
+    font-family: courier, arial, helvetica;
 }
-body{
+body {
     background: rgb(235, 13, 50);
     padding-top: 70px;
     align-items: center;
@@ -11,111 +11,105 @@ body{
     font-size: 20px;
     width: 100%;
     background-image: url("../css/Assets/undraw_Ride_a_bicycle_2yok.svg");
-    
 }
 
- #header{
-     text-align: center;
-     color: red;
- }
- img{
+#header {
+    text-align: center;
+    color: red;
+}
+img {
     position: relative;
-     margin-left: 0;
- }
- .ps{
-     top: 2rem;
-     position: relative;
-     width: 300px;
-     color: whitesmoke;
-     font-weight: 1000px;
-     font-size: 18px;
- }
+    margin-left: 0;
+}
+.ps {
+    top: 2rem;
+    position: relative;
+    width: 300px;
+    color: whitesmoke;
+    font-weight: 1000px;
+    font-size: 18px;
+}
 
- .button{
-     border-radius: 10px;
-     padding: 10px 32px;
-     text-decoration: none;
-     margin: 4px 2px;
-     text-align: center;
-     color: white;
-     font-size: 18px;
-     justify-content: space-between;
-     margin-right: 10%;
-     margin-left: 20px; 
- }
- 
+.button {
+    border-radius: 10px;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 20px;
+}
 
- .section{
-     display: flex;
-     align-items: center;
-     margin: auto;
-     width: 30%;
-    
-     
- }
+.section {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 30%;
+}
 
- .sign{
-      background-color: white;
-     border-radius: 10px;
-     padding: 10px 32px;
-     text-decoration: none;
-     margin: 4px 2px;
-     text-align: center;
-     color: white;
-     font-size: 16px;
-     justify-content: end;
-     margin-left: 160px;
-     border-color: white;
+.sign {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    justify-content: end;
+    margin-left: 160px;
+    border-color: white;
+}
+p {
+    color: red;
+    font-size: 18px;
+}
 
+.container {
+    /* margin-left: 460px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="text"],
+input[type="password"] {
+    padding: 15px;
 
- }
- p{
-     color: red;
-     font-size: 18px;
- }
+    width: 300px;
+    border: none;
+    background: white;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-radius: 10px;
+}
 
- .container{
-     
-     /* margin-left: 460px; */
-     display: flex;
-     flex-direction: column;
-     align-items: center;
- }
- input[type=text],input[type=password] {
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: lightgrey;
+    outline: none;
+}
 
-     padding: 15px;
-
-     width: 300px;
-     border: none;
-     background: white;
-     margin: 5px 0 22px 0;
-     display: inline-block;
-     border-radius: 10px;
- }
-
- input[type=text]:focus, input[type=password]:focus {
-     background-color: lightgrey;
-     outline: none;
- }
-
- .Login,.Signup{
-     background-color:#FFA405;
-     color: white;
-     cursor: pointer;
-     width: 40%;
-     opacity: 0.9;
-     border: none;
-     border-radius: 10px;
-     background-color: red;
- }
-#row1{
-     margin-top: 70px;
- }
- #row2{
-     margin-top: 40px;
- }
- .button1{
-   
+.Login,
+.Signup {
+    background-color: #ffa405;
+    color: white;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.9;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+}
+#row1 {
+    margin-top: 70px;
+}
+#row2 {
+    margin-top: 40px;
+}
+.button1 {
     color: white;
     padding: 16px 20px;
     cursor: pointer;
@@ -126,32 +120,28 @@ body{
     /* background-color: #FFA405; */
 }
 
+.signup {
+    text-align: center;
+    color: red;
+}
 
- .signup{
-    
-     text-align: center;
-     color: red;
-     
- }
-
- a{
-
+a {
     color: red;
     font-weight: 900;
     text-decoration: none;
- }
+}
 
- #rem{
-     color: red;
- }
- #form1{
-     color: red;
-     width: fit-content;
-     border: solid 3px;
-     padding-top: 10px;
-     border-color: #533f3c;
- }
- .display{
-     color: red;
-     display: none;
- }
+#rem {
+    color: red;
+}
+#form1 {
+    color: red;
+    width: fit-content;
+    border: solid 3px;
+    padding-top: 10px;
+    border-color: #533f3c;
+}
+.display {
+    color: red;
+    display: none;
+}

@@ -1,126 +1,138 @@
 body {
-    background-color: rgb(241, 241, 231);
+  background-color: rgb(241, 241, 231);
 }
 
-
 .donors {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .donorsDescr {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2em;
 }
 
 img {
-    clip-path: circle();
+  clip-path: circle();
 }
 
-p>span {
-    color: red;
+p > span {
+  color: red;
 }
 
 .column {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3em;
 }
 
 h4 {
-    color: red;
+  color: red;
 }
 
-.donorContact>h3, .donorContact>p, .donorContact>form {
-    text-align: center;
+.donorContact > h3,
+.donorContact > p,
+.donorContact > form {
+  text-align: center;
 }
-
-
-
-
-
 
 .sidebar {
-    height: 100%; 
-    width: 0; 
-    position: fixed; 
-    z-index: 1; 
-    top: 0;
-    left: 0;
-    background-color: #111; 
-    overflow-x: hidden; 
-    padding-top: 60px; 
-    transition: 0.5s; 
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {
+      padding-top: 15px;
   }
-  
-  
   .sidebar a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+      font-size: 18px;
   }
-  
-  
-  .sidebar a:hover {
-    color: #f1f1f1;
-  }
-  
-  
-  .sidebar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-  
- 
-  .openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    background-color: red;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-  }
-  
-  .openbtn:hover {
-    background-color: #444;
-  }
-  
-  
-  #main {
-    transition: margin-left .5s; 
-    padding: 20px;
-  }
-  
-  
-  @media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
-  }
+}
 
-  nav {
-      width: 200em;
-  }
+nav {
+  width: 200em;
+}
+
+#donation {
+  color: red;
+}
 
 
-  footer {
-      background-color: rgb(235, 235, 204);
-      border-radius: 1em;
-  }
 
-  header {
-      background-color: red;
-  }
 
-  .container {
-      border: 3px solid red;
-      border-radius: 2em;
-  }
+
+
+footer {
+  background-color: rgb(235, 235, 204);
+  border-radius: 1em;
+}
+
+header {
+  background-color: red;
+}
+
+.container {
+  border: 3px solid red;
+  border-radius: 2em;
+}
+
+.logo {
+  display: flex;
+  justify-content: end;
+}
+
+.text-center {
+  color: white;
+  padding-bottom: 1em;
+}
