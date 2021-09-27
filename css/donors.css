@@ -1,0 +1,35 @@
+body {
+    background-color: beige;
+}
+
+
+.donors {
+    display: flex;
+    flex-direction: column;
+}
+
+.donorsDescr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+img {
+    clip-path: circle();
+}
+
+p>span {
+    color: red;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3em;
+}
+
+h4 {
+    color: red;
+}
