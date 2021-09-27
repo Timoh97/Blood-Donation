@@ -127,10 +127,6 @@ header {
   border-radius: 2em;
 }
 
-.logo {
-  display: flex;
-  justify-content: end;
-}
 
 .text-center {
   color: white;

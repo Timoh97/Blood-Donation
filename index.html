@@ -1,37 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>blood-donation</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
-        <link rel="stylesheet" href="css/index.css" />
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src="js/index.js"></script>
-    </head>
-    <body>
-        <div class="container" id="form1">
-            <h1 id="header">Login</h1>
-            <p class="display"></p>
-
-            <form>
-                <div class="container">
-                    <label for="email"></label>
-                    <input type="text" placeholder="Enter Email" id="user-email" required /> <br> <br> <br> <br>
-                    <label for="password"></label>
-                    <input type="password" placeholder="Enter Password" id="user-password" required />
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="remember" />
-                        <label class="form-check-label" for="remember">Remember me</label>
-                    </div>
-                    <a href="#" class="text-white mb-2">Forgot Username/Password?</a>
-                    <button type="submit" class="Login">Login</button>
-                </div>
-                <div class="signup">
-                    <p class="mt-3">Not a member? <a href="sign.html">Signup</a>.</p>
-                </div>
-            </form>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>how we work</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/working.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+<body class="container">
+    <header>
+    </header>
+    <h2 class="text-center">SAVE LIFE CONNECT</h2>
+    <h3 class="text-center">Connecting blood donors with recipients.</h3>
+    <p class="text-center">Find blood donors near your location and make a blood request in less than 5 minutes.</p>
+    <h3 class="text-center">We save lives</h3>
+    <div class="row" id="savingLives">
+        
+        <div>
+         <img src="./images/blood.png" alt="Blood">
+         <h4>Find blood</h4>
+         <p>Find blood donors near your location <br> and request the needed blood type</p>
         </div>
-    </body>
+        <div>
+            <img src="./images/notifying.png" alt="notification">
+            <h4>Get notified</h4>
+            <p>Get notified about requests instantly, <br> either on our app or by sms</p>
+
+        </div>
+        <div>
+            <img src="./images/aids-ribbon.png" alt="Free ribbon">
+            <h4>Forever free</h4>
+            <p>You don't have to pay anything, <br> Save Life Connect is forever Free !</p>
+        </div>
+    </div>
+
+    <h3 class="text-center">Join our course</h3>
+    <p class="text-center">Join our cause and help us save more lives. Everyone should have the right to get a blood transfusion.</p>
+    <div class="row1" id="course">
+        <div class="descr">
+            <h4 class="text-center">Find Donors in your Area</h4>
+            <p>Get connected in a matter of minutes at zero cost. <br> Our App ships with a smart system that finds the closest blood donors. <br> Our automated blood donation system works efficiently whenever someone needs a blood transfusion</p>
+            <img class="center-block" src="./images/localisation.svg" alt="local donors" width="250">
+
+
+        </div>
+        <div class="descr">
+            <h4 class="text-center">Answer to Emergencies</h4>
+            <p class="text-center">As soon as a new blood request is raised, <br> it is routed among our local volunteer blood donors. <br> We know time matters! So we keep you updated with real-time notifications sent <br> directly to you via SMS (text message) or the installed mobile app</p>
+             <img class="center-block" src="./images/connect.svg" alt="connect with donors" width="250">
+        </div>
+        <div class="descr">
+            <h4 class="text-center">You are someone's Hero</h4>
+            <p class="text-center">In as little as few minutes, you can become someone's unnamed, unknown, but all-important Hero. <br> Saving a life is a noble work that starts very simply and easily. <br> Donate Blood or donate Money, every form of contribution you make is important, <br> valued and essential in our shared mission to save lives.</p>
+            <img class="center-block" src="./images/savelife.svg" alt="savelife" width="250">
+        </div>
+    </div>
+    <div class="descr1">
+        <div id="conclusion">
+            <h4 class="text-center">How it works.</h4>
+            <p class="text-center">Our app is as simple as posible</p>
+            <ul>
+                <h5>Register</h5>
+                <li>Create your Save Life Connect account in less than 5 minutes. It's Free for everyone.</li>
+                <h5>Fill your Profile</h5>
+                <li>Fill your profile information to start using the app and to interact with others.</li>
+                <h5>Make blood Requests</h5>
+                <li>Create new blood requests matching your needs in a matter of seconds.</li>
+                <h5>Find Blood</h5>
+                <li>Browse our donors and organization database to find what you need.</li>
+                <h5>View pending Requests</h5>
+                <li>Track exiting blood requests and get updated in real time.</li>
+                <h5>Share and Save Lives</h5>
+                <li>Make announcements, invite friends or share pending requests. Help saving more Lives !</li>
+            </ul>
+        </div>
+        <div class="conclusion">
+            <img class="center-block" src="./images/fotor_1632739083898.jpg" alt="">
+        </div>
+    </div>
+
+    <button class="center-block"><a href="donors.html">Next</a>Next</button>
+    
+</body>
 </html>
