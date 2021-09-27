@@ -58,3 +58,23 @@ button {
     width: 20em;
     text-align: center;
 }
+
+@media (max-width: 450px) {
+    .explainer,.row1 {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .descr,.descr>p,.descr>h4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .center-block {
+        width: 150px;
+    }
+
+    .conclusion {
+        display: none;
+    }
+  }
