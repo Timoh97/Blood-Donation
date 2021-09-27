@@ -144,7 +144,7 @@ a {
 }
 #form1 {
     /* width: fit-content; */
-    width: 50em;
+    width: fit-content;
     height: 30em;
     border: solid 3px;
     padding-top: 10px;
