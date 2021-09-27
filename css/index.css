@@ -2,20 +2,24 @@
     font-family: courier, arial, helvetica;
 }
 body {
-    background: rgb(235, 13, 50);
     padding-top: 70px;
     align-items: center;
-    background-color: #423338;
     background-repeat: no-repeat;
-    background-size: 40% 90%;
+    background-size: 40% 10%;
     font-size: 20px;
     width: 100%;
     background-image: url("../css/Assets/undraw_Ride_a_bicycle_2yok.svg");
 }
 
+#form1 {
+    
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-wd-7kR4AMGUSBJVcvaoAJRJA-hxCvZQRuA&usqp=CAU);
+   background-size: cover;
+}
+
 #header {
     text-align: center;
-    color: red;
+    color: white;
 }
 img {
     position: relative;
@@ -64,7 +68,7 @@ img {
     border-color: white;
 }
 p {
-    color: red;
+    color: white;
     font-size: 18px;
 }
 
@@ -94,14 +98,18 @@ input[type="password"]:focus {
 
 .Login,
 .Signup {
-    background-color: #ffa405;
-    color: white;
+    color: black;
+    font-weight: 700;
     cursor: pointer;
     width: 40%;
     opacity: 0.9;
     border: none;
     border-radius: 10px;
-    background-color: red;
+    background-color: white;
+}
+
+label {
+    color: white;
 }
 #row1 {
     margin-top: 70px;
@@ -117,31 +125,32 @@ input[type="password"]:focus {
     opacity: 0.9;
     border: none;
     border-radius: 10px;
-    /* background-color: #FFA405; */
+    background-color: #FFA405;
 }
 
 .signup {
     text-align: center;
-    color: red;
+    color: white;
 }
 
 a {
-    color: red;
+    color:white;
     font-weight: 900;
     text-decoration: none;
 }
 
 #rem {
-    color: red;
+    color:white;
 }
 #form1 {
-    color: red;
-    width: fit-content;
+    /* width: fit-content; */
+    width: 50em;
+    height: 30em;
     border: solid 3px;
     padding-top: 10px;
     border-color: #533f3c;
 }
 .display {
-    color: red;
+    color: white;
     display: none;
 }
