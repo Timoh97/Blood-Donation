@@ -9,3 +9,19 @@ function openNav() {
     document.getElementById("mySidebar").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
   }
+
+
+  $(document).ready(function(){
+    $("#form").submit(function(){
+      // event.preventDefault();
+      var fName = $("#fname").val();
+      var lName = $("#lname").val();
+      var emailAddress = $("#mail").val();
+      var bloodGroup = $("#selects option:selected").val();
+
+      
+      alert("Hi "+ fName+" " + lName+" your email is "+" "+ emailAddress +" and of blood group "+" "+bloodGroup)
+    })
+
+    
+  })
