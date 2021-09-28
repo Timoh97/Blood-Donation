@@ -20,9 +20,13 @@ function openNav() {
       var bloodGroup = $("#selects option:selected").val();
 
       
-      alert("Hi "+ fName+" " + lName+" your email is "+" "+ emailAddress +" and of blood group "+" "+bloodGroup)
-      alert("we shall link you to the donor in a short while via your email")
-    })
+
+      alert("Hi "+ fName+" " + lName+" your email is "+" "+ emailAddress +" and of blood group "+" "+bloodGroup);
+      alert("we shall link you to the donor in a short while via your email");
 
     
-  })
+    
+    });
+
+    
+  });
