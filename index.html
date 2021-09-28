@@ -8,9 +8,24 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/working.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/donors.js"></script>
 </head>
 <body class="container">
     <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="donors.html">Donors</a>
+                <a href="login.html">login</a> 
+                <a href="#">Book appointment</a>
+            </div>
+
+            <div id="main">
+                <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
+            </div>
+        </nav>
+        <h2 class="text-center" id="donate">TIM BLOOD DONATION CENTRE</h2>
     </header>
     <h2 class="text-center">SAVE LIFE CONNECT</h2>
     <h3 class="text-center">Connecting blood donors with recipients.</h3>
@@ -80,8 +95,5 @@
             <img class="center-block" src="./images/fotor_1632739083898.jpg" alt="">
         </div>
     </div>
-
-    <button class="center-block"><a href="donors.html">Next</a>Next</button>
-    
 </body>
 </html>
