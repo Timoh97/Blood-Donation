@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+    <link rel="stylesheet" href="registration.css">
+    <script src="js/donors.js"></script>
+</head>
+<body>
+    <h2 class="text-center">Create your profile here</h2>
+    <div class="center-block">
+     <div class="reg1">
+        <p>First Name</p>
+        <input type="text" name="FirstName" placeholder="Fist Name">
+        <p>Last Name</p>
+        <input type="text" name="LastName" placeholder="Last Name">
+        <p>Upload your picture</p>
+        <input class="file-upload-input" type="file" .onchange="readURL">
+        <p>Occupation</p>
+        <input type="text" name="work">
+        <p>Date of birth</p>
+        <input type="date">
+        <p>Are you a donor?</p>
+        <select name="" id="">
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+        </select>
+     </div>
+    <div class="reg2">
+        <p>Work email</p>
+        <input type="email">
+        <p>Organization name</p>
+        <input type="text">
+        <p>E-HR/PM system</p>
+        <select name="" id="">
+            <option value="choose">Choose</option>
+            <option value="CureMd">CureMd</option>
+            <option value="AIIMeds">AIIMeds</option>
+            <option value="NexTech">NexTech</option>
+            <option value="AthenaMed">AthenaMed</option>
+            <option value="Epic">Epic</option>
+            <option value="e-clinicalworks">e-clinicalworks</option>
+            <option value="CareCloud">CareCloud</option>
+        </select>
+        <p>Organization Type</p>
+        <select name="" id="">
+            <option value="Choose type">Choose type</option>
+            <option value="Hospital/Health system">Hospital/Health system</option>
+            <option value="Medical Group/Practice">Medical Group/Practice</option>
+            <option value="Federal qualified health worker">Federal qualified health worker</option>
+            <option value="Intern">Intern</option>
+            <option value="Other">Other</option>
+        </select>
+    </div>
+    <div class="reg3">
+        <p>Ever donated blood?</p>
+    <select name="" id="">
+        <option value="Yes"></option>
+        <option value="No"></option>
+        <option value="Not sure"></option>
+    </select>
+    <p>Would you donate blood?</p>
+    <select name="" id="">
+        <option value="Yes"></option>
+        <option value="Maybe"></option>
+        <option value="No"></option>
+    </select>
+    <p>Phone number</p>
+    <input type="number" placeholder="Phone number"> <br> <br>
+    <p>Type your message here</p>
+    <textarea name="message" id="mess" cols="30" rows="10"></textarea>
+    </div>
+
+    </div>
+</body>
+</html>

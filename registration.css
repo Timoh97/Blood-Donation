@@ -1,0 +1,24 @@
+
+body {
+    background-color: thistle;
+}
+
+.center-block {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(175, 104, 104);
+    height: fit-content;
+    width: fit-content;
+    padding: 1em;
+    margin: 2em;
+    /* margin-left: 20em; */
+    flex-wrap: wrap;
+}
+
+.reg1,.reg2,.reg3 {
+    padding: 1em;
+    margin: 2em;
+    flex-wrap: wrap;
+}
