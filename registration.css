@@ -12,8 +12,7 @@ body {
     height: fit-content;
     width: fit-content;
     padding: 1em;
-    margin: 2em;
-    /* margin-left: 20em; */
+    margin: auto;
     flex-wrap: wrap;
 }
 
@@ -21,4 +20,11 @@ body {
     padding: 1em;
     margin: 2em;
     flex-wrap: wrap;
+}
+
+#reg {
+    margin-top: 0.5em;
+    color: white;
+    font-size: large;
+    border-radius: 5px;
 }
