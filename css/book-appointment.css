@@ -1,3 +1,15 @@
-button {
-  color: brown;
+.appointment {
+  background-image: url("https://img.freepik.com/free-photo/calendar-planner-business-event-agenda-schedule-planing-booking-timeline-payment-reminder_101448-7.jpg?size=626&ext=jpg");
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+.center-block {
+  padding: 7em;
+  background-color: transparent;
+}
+
+input, textarea, button {
+  background-color: transparent;
 }

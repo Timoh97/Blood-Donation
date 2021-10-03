@@ -28,6 +28,32 @@ function openNav() {
     
     });
 
+// This code isn't working
+    $(".regForm").submit(function(){
+      var firstName = $("#firstName").val();
+      var lastName = $("#lastName").val();
+      var occupation = $("#occupation").val();
+      var dateOfBirth = $("#dob").val();
+      var donor = $("#donor").val();
+      var workEmail = $("#email").val();
+      var orgName = $("#orgName").val();
+      var ehrSystem = $("#ehr").val();
+      var orgType = $("#orgType").val();
+      var everDonated = $("#everDonated").val();
+      var wouldDonate = $("#wouldDonate").val();
+      var phoneNumber = $("#phoneNumber").val();
+      var message = $("#mess").val();
+      
+
+      alert(firstName)
+      alert(lastName)
+      alert(occupation)
+      alert(dateOfBirth)
+      alert(donor)
+      alert(workEmail)
+
+    })
+
     
   });
 

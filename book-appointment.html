@@ -6,13 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="book-appointment.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/book-appointment.css">
+    <script src="appointment.js"></script>
 </head>
 <body>
-    <div>
-        <p>To be able to enjoy our services, <br>
-             you have to create a profile with us</p>
-             <button>Register</button>
+    <div class="appointment">
+        <h2 class="text-center">Doctor's Appointment Form</h2>
+        <div class="center-block">
+            <h3>Patient's Information</h3>
+            <p>Patient's Name</p>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Second Name"> <br> <br>
+
+            <p>Gender</p>
+            <input type="radio" value="male">
+            <label for="male">Male</label> <br> <br>
+            <input type="radio" value="female">
+            <label for="female">Female</label> <br> <br>
+
+            <p>Date of Birth</p>
+            <input type="date"> <br> <br>
+
+            <p>Email</p>
+            <input type="email"> <br> <br>
+
+            <p>Phone Number</p>
+            <input type="tel"> <br> <br>
+
+            <p>Address</p>
+            <textarea name="address" id="textMessage" cols="30" rows="10"></textarea> <br> <br>
+
+             <p>Is this your first visit?</p>
+             <input type="radio" value="yes">
+             <label for="yes">yes</label> <br> <br>
+             <input type="radio" value="no">
+             <label for="no">no</label> <br> <br>
+
+             <h3>Appointment Details</h3>
+             <p>Preferred Doctor</p>
+             <input type="text" placeholder="leave blank if you have no one"> <br> <br>
+
+             <p>Purpose of Appointment</p>
+             <textarea name="texts" id="tMessage" cols="30" rows="10"></textarea> <br> <br>
+             
+              <button type="submit">submit</button>
+        </div>
     </div>
 </body>
 </html>

@@ -8,7 +8,7 @@ $(document).ready(function(){
             $(".display").show().text("Please fill in all details")
         } else {
             $(".display").hide();
-            location.replace("book-appointment.html");
+            location.replace("registration.html");
         }
 })
 
